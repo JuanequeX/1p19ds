@@ -1,4 +1,4 @@
-function fact  (n)  {
+function factor  (n)  {
     let r = 1
 
     for ( let i = 1; i <= n; i++ ) {
@@ -8,7 +8,7 @@ function fact  (n)  {
     return r
 }
 
-function switchSign (i){
+function tras (i){
   if (i % 2 === 0) return -1;
   else return 1;
 };
@@ -17,7 +17,7 @@ function senX (x) {
   let sum = 0;
   let top = 15
   for (let i = 1, c = 1; c <= top; i += 2, c++) {
-    sum += switchSign(c) * (Math.pow(x, i) / fact(i));
+    sum += tras(c) * (Math.pow(x, i) / factor(i));
   }
   return sum;
 };
