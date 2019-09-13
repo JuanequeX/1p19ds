@@ -1,27 +1,24 @@
-let x = 10;
-let y = 2;
-let prime = [];
+let a = 20
 
-for (; y < x; y++) {
+function primo (a) {
+    let numero = 2
+    let primo = 1
 
-  if (primo(y)) {
-    prime.push(y);
-  }
-  
-}
+    while (a > 0) {
+        primo = 1
+        for ( let i = 2; i < numero; i++) {
+            if (numero % i === 0) {
+                primo = 0
+                break 
+            }
+        }
 
-console.log(prime);
-
-function primo(numero) {
-
-  for (let i = 2; i < numero; i++) {
-
-    if (numero % i === 0) {
-      return false;
+        if (primo) {
+            console.log(numero)
+            a--
     }
 
+    numero++
   }
-
-  return numero !== 1;
 }
-
+primo(a)

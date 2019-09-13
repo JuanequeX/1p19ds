@@ -1,14 +1,15 @@
-const n =10;
-let sumador = 0;
+const a =10;
+const b = 2
+let temporal = 0;
 let formula
-let k = 2; 
 
-for(let i =1; i <= n; i++)
+for(let i =1; i <= a; i++)
 {
-  sumador += Math.pow(i,k);
+  temporal += Math.pow(i,b);
 }
-let x = k+1;
-//formula = ((1/x)*(Math.pow(10,3))
+let x = b + 1;
 
-//console.log('La sumatoria es: '+ sumador);
-//console.log('La formulación es: '+formula);
+formula = ((1/x)*(Math.pow(10,3)))
+
+console.log('La sumatoria es: '+ temporal);
+console.log('La formulación es: '+formula);
