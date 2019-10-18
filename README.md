@@ -1,2 +1,2 @@
-# 1p19ds
-Ejercicios de primer parcial
+# 1,2ds
+Ejercicios parciales
