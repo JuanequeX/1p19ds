@@ -1,2 +1,2 @@
-# 1,2ds
+# 1,2p19ds
 Ejercicios parciales
